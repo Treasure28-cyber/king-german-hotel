@@ -15,13 +15,20 @@ npm run dev
 npm run build
 ```
 
-The site exports to `out/` for static hosting. Contact and directions links work without a backend. The reservation form prepares a telephone enquiry and does not transmit personal information, reserve inventory, or process payments. Confirm actual rooms, facilities, prices, and hotel policies before adding booking functionality.
+The site exports to `out/` for static hosting. Reservations use a direct telephone link to reception; no booking form, inventory, or payments are simulated. Confirm actual room categories, rates, and policies with the hotel. The gallery opens full photographs in a keyboard-accessible dialog, and the room showcase switches between the two supplied room photos.
 
 ## Images
 
-`public/images/lounge.png`, `room.png`, and `dining.png` were made using the built-in image generation tool. They are illustrative, not photographs of the actual hotel. Replace them with approved property photographs when available.
+The current design uses only the four hotel photographs supplied by the user:
 
-Prompt set:
+- `public/images/hotel-exterior.webp`
+- `public/images/guest-room-white.webp`
+- `public/images/guest-room-gold.webp`
+- `public/images/catfish-pepper-soup.webp`
+
+The earlier generated PNG assets remain in the repository for reference but are not used by the website. The layout now follows the supplied Presidential Hotel references: red rounded buttons, floating white navigation, a centered photograph hero, curved image corners, a room showcase, staggered photo cards, pink dining panels, and a map with contact information. Unconfirmed amenities, offers, and testimonials from the reference hotel have not been copied.
+
+Earlier generated asset prompt set (unused):
 - Lounge: Wide architectural photograph of a contemporary Nigerian boutique hotel lounge, walnut, cream sofas, olive accents, brass lights, tropical plants, warm afternoon sunlight; no people or text.
 - Room: Nigerian boutique guest bedroom, queen bed, ivory linens, walnut headboard, olive cushions, brass lamp, warm natural sunlight; no people or text.
 - Dining: Editorial photograph of Nigerian catfish pepper soup in a ceramic bowl, herbs and peppers, dark walnut table, linen and brass cutlery, warm restaurant background; no people or text.
